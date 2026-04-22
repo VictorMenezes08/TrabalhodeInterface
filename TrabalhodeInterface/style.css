@@ -1,0 +1,276 @@
+body {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+
+h2,
+h1,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+#bodyindex {
+    background-color: rgb(255, 255, 255);
+    border-width: 10px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    text-decoration: solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    padding: 1%;
+    border: none;
+    float: right;
+    background-color: rgb(218, 222, 224);
+    position: fixed;
+    top: -22px;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    list-style: none;
+    width: 115px;
+    border-right: 2px solid;
+    border: none;
+}
+
+.menu li a {
+    color: rgb(231, 134, 7);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 23px;
+    left: 0px;
+    display: none;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li ul li {
+    border: 2px solid black;
+    background-color: rgb(212, 212, 203);
+    display: block;
+    width: 100px;
+    left: 42px;
+}
+
+p {
+    width: 60%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#listas {
+    text-align: justify;
+    margin: 100px;
+}
+
+#bodypag {
+    background-color: rgb(255, 255, 255);
+    border-width: 10px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: justify;
+}
+
+figure {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tabela-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.tabela-estilo1 {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.tabela-estilo1 caption {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.tabela-estilo1 th {
+    background-color: rgb(218, 222, 224);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tabela-estilo1 td {
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tabela-estilo1 tbody tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+.tabela-estilo2 {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.tabela-estilo2 caption {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.tabela-estilo2 th {
+    background-color: rgb(180, 180, 180);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tabela-estilo2 td {
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.cel-otimo {
+    background-color: rgb(165, 234, 154);
+}
+
+.cel-bom {
+    background-color: rgb(243, 234, 138);
+}
+
+.cel-ruim {
+    background-color: rgb(255, 210, 210);
+}
+
+.cel-especial {
+    background-color: rgb(214, 234, 255);
+}
+
+.video-container video {
+    width: 560px;
+    height: 315px;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.video-container video {
+    border: 3px solid rgb(218, 222, 224);
+    border-radius: 8px;
+    max-width: 90%;
+}
+
+.audio-container audio {
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+}
+
+.form-container {
+    width: 60%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.fieldset-estilo {
+    border: 2px solid rgb(218, 222, 224);
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    background-color: rgb(250, 250, 250);
+}
+
+.fieldset-estilo legend {
+    font-size: 17px;
+    padding: 0 10px;
+    color: rgb(231, 134, 7);
+}
+
+.fieldset-estilo input[type="text"],
+.fieldset-estilo input[type="email"],
+.fieldset-estilo input[type="number"],
+.fieldset-estilo select,
+.fieldset-estilo textarea {
+    width: 80%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.fieldset-estilo input[type="radio"],
+.fieldset-estilo input[type="checkbox"] {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.fieldset-estilo label {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.botoes-form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-reset {
+    background-color: rgb(218, 222, 224);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(180, 180, 180);
+    padding: 10px 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.btn-reset:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.btn-enviar {
+    background-color: rgb(231, 134, 7);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: rgb(200, 115, 5);
+}
